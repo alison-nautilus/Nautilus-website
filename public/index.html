@@ -414,22 +414,6 @@
             <h2>Contato</h2>
             <div class="row pt-2">
                 <div class="col-12 col-lg-7">
-                    <script src="https://smtpjs.com/v3/smtp.js"></script>
-                    <script type="text/javascript">
-                        function sendEmail() {
-                            Email.send({
-                                Host: "smtp.gmail.com",
-                                Username: "martins.alison.new@gmail.com",
-                                Password: "paxcbezsggjeopvz",
-                                To: 'alison@nautilusinfo.com',
-                                From: document.getElementbyId("email").value,
-                                Subject: "Menssagem do site Nautilus Sistemas",
-                                Body: document.getElementbyId("message").innerHTML,
-                            }).then(function (message) {
-                                console.log("mail sent successfully".concat(message.tostring()))
-                            });
-                        }
-                    </script>
                     <form action="#" method="POST">
                         <div class="row">
                             <div class="col-12 col-sm-6">
